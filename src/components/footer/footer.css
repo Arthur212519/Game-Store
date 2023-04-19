@@ -1,0 +1,24 @@
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 250px;
+    background-color: #323232;
+    padding: 40px;
+}
+.contacts{
+    display: flex;
+    gap: 20px;
+
+
+}
+.icons-style{
+    color: #6b6e70;
+    cursor: pointer;
+    font-size: 32px;
+    transition: color 0.8s;
+}
+.icons-style:hover{
+color: #86c232;
+}

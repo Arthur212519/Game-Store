@@ -1,0 +1,22 @@
+.image-selector{
+    width: 50%;
+}
+.image-selector-preview img{
+    width: 100%;  
+    border-radius: 10px;
+
+}
+.image-selector-thumbnails{
+display: flex;
+justify-content: space-between;
+
+}
+.image-selector-thumbnails img{
+    border-radius: 10px;
+    cursor: pointer;
+    width: 24%;
+}
+.image-selector-thumbnails img:hover{
+    opacity: 0.8;
+    filter:grayscale(10%);
+}

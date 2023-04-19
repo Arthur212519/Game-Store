@@ -1,5 +1,7 @@
 .App {
+  height: 100vh;
   text-align: center;
+  background-color: #222629;
 }
 
 .App-logo {
@@ -7,6 +9,7 @@
   pointer-events: none;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap');
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
